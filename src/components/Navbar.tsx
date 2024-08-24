@@ -1,10 +1,9 @@
 'use client'
 
-import { transition } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import { AiOutlineBook, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const navLinks = [
     {title:"About", path:"#about"},
