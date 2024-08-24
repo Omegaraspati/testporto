@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import proj1 from '../assets/proj1.jpg'
+import portomarsya from '../assets/PortoMarsya.png'
 import proj2 from '../assets/proj2.jpg'
 import proj3 from '../assets/proj3.png'
 import Image from 'next/image'
@@ -8,12 +8,12 @@ import { motion } from 'framer-motion'
 
 const projects= [
     {
-        title :"Ecommers Official Contoh we",
-        desc :"Example asja",
-        devstack :"next.js",
-        link :"#",
-        git :"#",
-        scr :proj1,
+        title :"Portfolio Marsya Nurma Guvita",
+        desc :"Membuat sebuah perkenalan diri berbasis Website",
+        devstack :"Next.js",
+        link :"https://portfoliomarsyaagn-git-main-omegaraspatis-projects.vercel.app/",
+        git :"https://github.com/Omegaraspati/portfolio-nextjs",
+        scr :portomarsya,
     },
     {
         title :"Ecommers Official Contoh we",
@@ -55,8 +55,8 @@ const Portfolio = () => {
             <p className='text-lg text-white/70 break-words p-4'>{project.desc}</p>
             <p className='text-lg text-orange-500 font-semibold'>{project.devstack}</p>
             <div className='w-64 h-[1px] bg-gray-400 my-4'>
-                <a href={project.link} className='mr-6'>Link</a>
-                <a href={project.git}>Git</a>
+                <a href={project.link} target='blank' className='mr-6'>Go to Website</a>
+                <a href={project.git} target='blank'>GitHub</a>
             </div>
         </div>
         <div className='flex justify-center items-center'>

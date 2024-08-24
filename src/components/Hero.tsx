@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React from 'react'
 import cursor from "../assets/icon1.png"
 import lightning from "../assets/icon2.png"
-import profilepic from "../assets/profilepic.png"
+import heropng from '../assets/hero.png'
 
 const Hero = () => {
     return (
@@ -39,12 +39,12 @@ const Hero = () => {
                 </motion.div>
 
                 <p className='text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque distinctio,
-                    dolore rerum,
+                Saya merupakan lulusan Teknik Informatika.
+                Saya memiliki kemampuan dalam dunia Komputer maupun IT salah satunya di bidang Front End Web Development.
                 </p>
 
                 <Image
-                    src={profilepic}
+                    src={heropng}
                     alt={'profile picture'}
                     className="h-auto mx-auto w-auto"
                 />

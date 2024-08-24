@@ -25,7 +25,8 @@ const About = () => {
                     </div>
                     <div className='flex flex-col mt-4'>
                         <h2 className='text-2xl font-bold text-white/80'>Education</h2>
-                        <p className='text-lg text-white/70 mt-2'>Lorem ipsum dolor sit amet.</p>
+                        <p className='text-lg text-white/70 mt-2'>Saya Lulusan SMA Negeri 27 Bandung. Saya melanjutkan Perkuliahan saya d . Saya akhirnya memutuskan untuk mengolah 
+                        kemampuan saya dibidang IT maupun di bidang komputer yang bertempatan di Purwadhika </p>
                     </div>
                 </div>
 
