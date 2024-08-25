@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import portomarsya from '../assets/PortoMarsya.png'
-import proj2 from '../assets/proj2.jpg'
+import itenas from '../assets/itenas.png'
 import proj3 from '../assets/proj3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -16,12 +16,12 @@ const projects= [
         scr :portomarsya,
     },
     {
-        title :"Ecommers Official Contoh we",
-        desc :"Example asja",
-        devstack :"next.js",
-        link :"#",
-        git :"#",
-        scr :proj2,
+        title :"Itenas - Institut Teknologi Nasional",
+        desc :"Clonning Website Itenas Bandung",
+        devstack :"Next.js",
+        link :"https://itenas-bandung.vercel.app/",
+        git :"https://github.com/Omegaraspati/website-itenas",
+        scr :itenas,
     },
     {
         title :"Ecommers Official Contoh we",
