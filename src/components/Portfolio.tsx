@@ -2,15 +2,16 @@
 import React from 'react'
 import portomarsya from '../assets/PortoMarsya.png'
 import itenas from '../assets/itenas.png'
-import proj3 from '../assets/proj3.png'
+import valorant from '../assets/valorant.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+
 
 const projects= [
     {
         title :"Portfolio Marsya Nurma Guvita",
         desc :"Membuat sebuah perkenalan diri berbasis Website",
-        devstack :"Next.js",
+        devstack :"FrontEnd woth Next.js",
         link :"https://portfoliomarsyaagn-git-main-omegaraspatis-projects.vercel.app/",
         git :"https://github.com/Omegaraspati/portfolio-nextjs",
         scr :portomarsya,
@@ -18,18 +19,18 @@ const projects= [
     {
         title :"Itenas - Institut Teknologi Nasional",
         desc :"Clonning Website Itenas Bandung",
-        devstack :"Next.js",
+        devstack :"FrontEnd with Next.js",
         link :"https://itenas-bandung.vercel.app/",
         git :"https://github.com/Omegaraspati/website-itenas",
         scr :itenas,
     },
     {
-        title :"Ecommers Official Contoh we",
-        desc :"Example asja",
-        devstack :"next.js",
-        link :"#",
-        git :"#",
-        scr :proj3,
+        title :"Valorant-ID",
+        desc :"Clonning Website RIOT GAME Valorant-ID",
+        devstack :"FrontEnd with Next.js",
+        link :"https://valorant-website.vercel.app/",
+        git :"https://github.com/Omegaraspati/valorant-website",
+        scr :valorant,
     } 
 ]
 const Portfolio = () => {
@@ -54,9 +55,9 @@ const Portfolio = () => {
             <h2 className='text-4xl'>{project.title}</h2>
             <p className='text-lg text-white/70 break-words p-4'>{project.desc}</p>
             <p className='text-lg text-orange-500 font-semibold'>{project.devstack}</p>
-            <div className='w-64 h-[1px] bg-gray-400 my-4'>
-                <a href={project.link} target='blank' className='mr-6'>Go to Website</a>
-                <a href={project.git} target='blank'>GitHub</a>
+            <div className='w-64 h-[1px] bg-gray-400 my-4 flex '>
+                <a href={project.link} target='blank' className='mr-6 hover:text-orange-500 '>Go to Website</a>
+                <a href={project.git} target='blank'className='hover:text-orange-500'>Github</a>
             </div>
         </div>
         <div className='flex justify-center items-center'>
