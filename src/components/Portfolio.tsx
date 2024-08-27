@@ -3,6 +3,7 @@ import React from 'react'
 import portomarsya from '../assets/PortoMarsya.png'
 import itenas from '../assets/itenas.png'
 import valorant from '../assets/valorant.png'
+import transtv from '../assets/transtv.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
@@ -31,7 +32,15 @@ const projects= [
         link :"https://valorant-website.vercel.app/",
         git :"https://github.com/Omegaraspati/valorant-website",
         scr :valorant,
-    } 
+    } ,
+    {
+        title :"Trans TV ",
+        desc :"Clonning Website TRANS TV",
+        devstack :"FrontEnd with Next.js",
+        link :"https://trans-tv-git-main-omegaraspatis-projects.vercel.app/",
+        git :"https://github.com/Omegaraspati/trans-tv",
+        scr :transtv,
+    },
 ]
 const Portfolio = () => {
   return (
