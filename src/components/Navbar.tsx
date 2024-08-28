@@ -50,22 +50,20 @@ export const Navbar = () => {
                     <a href='/'className='group'>
                         <h1 className='text-lg font-bold text-white/70 cursor-pointer '>Home</h1>
                         <div className ="relative">
-                            <div className ="absolute w-1/3 h-1 transition-all duration-300 ease-out bg-orange-400 rounded-full group-hover:w-full">
-
-                            </div>
-                            <div className ="mt-2 w-2/3 h-1 transition-all duration-300 ease-out bg-orange-600 rounded-full group-hover:w-full">
-
-                            </div>
-
-
+                            <div className ="absolute w-1/3 h-1 transition-all duration-300 ease-out bg-orange-400 rounded-full group-hover:w-full"></div>
+                            <div className ="mt-2 w-2/3 h-1 transition-all duration-300 ease-out bg-orange-600 rounded-full group-hover:w-full"> </div>
                         </div>
                     </a>
                 </li>
                 {navLinks.map((link,index) => (
                     <li key={index}>
                         
-                        <Link href ={link.path} className=' hover:text-orange-400 '>
+                        <Link href ={link.path} className=' hover:text-orange-400 group'>
                             <p>{link.title}</p>
+                            <div className ="relative">
+                            <div className ="absolute hover:w-1/3 h-1 hover:transition-all duration-700 ease-out bg-orange-400 rounded-full group-hover:w-full"></div>
+                            <div className ="mt-3 w-2/3 h-1 transition-all duration-300 ease-out bg-orange-600 rounded-full group-hover:w-full"> </div>
+                        </div>
                         </Link>
                         
                     </li>

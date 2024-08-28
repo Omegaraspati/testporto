@@ -1,11 +1,13 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import portomarsya from '../assets/PortoMarsya.png'
 import itenas from '../assets/itenas.png'
 import valorant from '../assets/valorant.png'
 import transtv from '../assets/transtv.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 
 
 const projects= [
@@ -43,8 +45,15 @@ const projects= [
     },
 ]
 const Portfolio = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 1200
+    });  // Inisialisasi AOS
+      }, []);
+
   return (
-    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-52 pb-52' id="portfolio">
+    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-52 pb-52 ' id="portfolio">
 
         <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold my-12'>Selected <span className='text-orange-400'>Projects</span>
 
@@ -57,7 +66,8 @@ const Portfolio = () => {
                 whileInView={{opacity : 1, y:0}}
                 viewport={{once : true}}
                 transition={{ duration: 0.5, delay: 0.25}}
-                className={`flex mt-12 flex-col ${index % 2 === 1 ?" md:flex-row-reverse gap-12 ":" md:flex-row" }`}>
+                data-aos="fade-right"
+                className={`flex mt-12 flex-col ${index % 1 === 1 ?" md:flex-row-reverse gap-12 ":" md:flex-row" }`}>
 
         <div className='space-y-2 max-w-[550px]'>
             <h2 className='text-7xl my-4 text-white/70'>{`0${index + 1  }`}</h2>
@@ -70,7 +80,7 @@ const Portfolio = () => {
             </div>
         </div>
         <div className='flex justify-center items-center'>
-            <Image src={project.scr} alt={project.title} className='h-[350px] w-auto object-cover border rounded border-gray-700'/>
+            <Image src={project.scr} alt={project.title} className='h-[350px] sm:m-auto m-20 w-auto object-cover border rounded border-gray-700'data-aos="fade-left"/>
         </div>
                 </motion.div>
 
