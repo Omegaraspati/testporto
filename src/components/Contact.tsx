@@ -13,7 +13,7 @@ const Contact = () => {
         <ul className='space-y-4'>
           <li className='flex items-center'>
             <Image src={phone} alt={'phone'} className='h-[110px] w-auto mr-6' />
-            <p className='text-xl'>+62 888-200-0090-278 </p>
+            <p className='text-xl'>+62-888-200-009-0278 </p>
           </li>
           <li className='flex items-center'>
             <Image src={mail} alt={'mail'} className='h-[110px] w-auto mr-6' />

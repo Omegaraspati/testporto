@@ -39,8 +39,8 @@ const Hero = () => {
                 </motion.div>
 
                 <p className='text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80'>
-                Saya merupakan lulusan Teknik Informatika.
-                Saya memiliki kemampuan dalam dunia Komputer maupun IT salah satunya di bidang Front End Web Development.
+                I am a graduate of Informatics Engineering. I have skills in the world of computers and IT, 
+                one of which is in the field of Front End Web Development.
                 </p>
 
                 <Image

@@ -7,7 +7,9 @@ import {AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const navLinks = [
     {title:"About", path:"#about"},
+    {title:"Education", path:"#education"},
     {title:"Portfolio", path:"#portfolio"},
+    {title:"Experience", path:"#experience"},
     {title:"Contact", path:"#contact"},
     
 ]
@@ -41,7 +43,7 @@ export const Navbar = () => {
     }
 
   return (
-    <div className ="text-white/70 pt-6">
+    <div className ="text-white/70 pt-6 pr-52 ">
         <div className ="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px]">
             <ul className='flex flex-row p-4 space-x-8'>
                 <li>

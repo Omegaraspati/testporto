@@ -2,13 +2,22 @@
 
 import React from 'react'
 import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa'
+import { SiAdobephotoshop, SiAdobepremierepro, SiCoreldraw, SiMysql, SiNextdotjs, SiTailwindcss, SiTypescript, SiVegas } from 'react-icons/si';
 
 
 const skillIcons = [
     {icon : <FaHtml5 size={140} />, label : "HTML"},
     {icon : <FaCss3Alt size={140} />, label : "CSS"},
-    {icon : <FaReact size={110} />, label : "React"},
-    {icon : <FaJsSquare size={140} />, label : "javaScript"}
+    {icon : <SiTypescript size={140} />, label : "TypeScript"},
+    {icon : <FaJsSquare size={140} />, label : "javaScript"},
+    {icon : <SiVegas size={110} />, label : "VegasPro"},
+    {icon : <SiAdobephotoshop size={140} />, label : "Adobe Photoshop"},
+    {icon : <SiAdobepremierepro size={140} />, label : "Adobe Premier Pro"},
+    {icon : <SiCoreldraw size={140} />, label : "Corel Draw"},
+    {icon : <FaReact size={140} />, label : "React.js"},
+    {icon : <SiTailwindcss size={140} />, label : "TailwindCss"},
+    {icon : <SiNextdotjs size={140} />, label : "Next.js"},
+    {icon : <SiMysql size={140} />, label : "MySql"},
 ];
 
 const Skills = () => {

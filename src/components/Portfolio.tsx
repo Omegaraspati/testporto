@@ -44,7 +44,7 @@ const projects= [
 ]
 const Portfolio = () => {
   return (
-    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-52' id="portfolio">
+    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-52 pb-52' id="portfolio">
 
         <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold my-12'>Selected <span className='text-orange-400'>Projects</span>
 
