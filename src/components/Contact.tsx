@@ -3,39 +3,50 @@
 import React from 'react'
 import mail from '../assets/mail.png'
 import phone from '../assets/phone.png'
+import githubanimated from '../assets/pnggithub.png'
+import linktree from '@/assets/linktreanimated.png'
 import Image from 'next/image'
-
 
 const Contact = () => {
   return (
-    <div className ="max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8 " id='contact'>
+    <div className='max-w-[1200px] mx-auto' id='about'>
+            <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 '
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                Contac&apos;t <span className="text-orange-400">Me</span>
+            </h1>
+            
+    <div className="max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8" id='contact'>
       <div className='flex justify-center items-center'>
         <ul className='space-y-4'>
-          <li className='flex items-center'>
+          <a href="https://wa.me/62882000090278?text=Halo" target="blank" className='overflow-hidden hover:group'>
+          <li className='flex items-center transform transition-transform duration-300 hover:scale-110 hover:group hover:text-orange-400 hover:underline'>
             <Image src={phone} alt={'phone'} className='h-[110px] w-auto mr-6' />
-            <p className='text-xl'>+62-888-200-009-0278 </p>
+            <p className='text-xl'>WhatsApp Me</p>
           </li>
+            </a>
           <li className='flex items-center'>
             <Image src={mail} alt={'mail'} className='h-[110px] w-auto mr-6' />
             <p className='text-xl'>omegaraspatiii@gmail.com</p>
           </li>
+          <a href="https://github.com/Omegaraspati" target="blank" className='overflow-hidden hover:group'>
+          <li className='flex items-center transform transition-transform duration-300 hover:scale-110 hover:group hover:text-orange-400 hover:underline'>
+            <Image src={githubanimated} alt={'github'} className='h-[110px] w-auto mr-6' />
+            <p className='text-xl '>GITHUB</p>
+          </li>
+            </a>
+            <a href="https://www.linkedin.com/in/omega-anggun-raspati-912a29314/" target="blank" className='overflow-hidden hover:group'>
+          <li className='flex items-center transition-transform duration-300 hover:scale-110 hover:group hover:text-orange-400 hover:underline'>
+            <Image src={linktree} alt={'linktree'} className='h-[110px] w-auto mr-6' />
+            <p className='text-xl'>Linkedin</p>
+          </li>
+          </a>
         </ul>
       </div>
 
-      <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
-        <h2 className='text-5xl font-bold text-orange-400 mb-4'>Let&apos;s Connect</h2>
-        <p className='text-white/70 mb-6'></p>
-        <form className='space-y-4' action={''}>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <input placeholder='First Name' className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400'/>
-            <input placeholder="Last Name" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400'/>
-            <input placeholder="Mail" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400'/>
-            <input placeholder="Phone" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400'/>
-          </div>
-          <textarea placeholder='Your Message' className='bg-black/70 w-full rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400'></textarea>
-          <button className='bg-orange-700 hover:bg-orange-500 text-white px-6 py-2 w-full font-semibold text-xl rounded-xl '>Send Message</button>
-        </form>
-      </div>
+     
+    </div>
     </div>
   )
 }

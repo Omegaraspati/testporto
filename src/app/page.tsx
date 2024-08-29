@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+// import Contact2 from "@/components/Contact2";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -19,7 +20,8 @@ export default function Home() {
     <Portfolio />
     <Experience/>
     <Skills />
-    <Contact />
+    {/* <Contact2 /> */}
+    <Contact/>
     <Footer/>
     </>
   );
