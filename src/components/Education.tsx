@@ -7,6 +7,7 @@ import sman27 from '@/assets/sman27.png'
 import itenasedu from '@/assets/itenasedu.png'
 import stmik from '@/assets/stmik.png'
 import pwdk from '@/assets/pwdk.jpeg'
+import revou from '@/assets/revou.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 
@@ -36,12 +37,20 @@ const theplace = [
         scr: stmik,
     },
     {
-        title: "Purwadhika Digital Technology School ",
+        title: "Purwadhika Digital Technology ",
         desc: "Full Stack Web Deveolpment",
         devstack: "2024-2024",
         link: "https://trans-tv-git-main-omegaraspatis-projects.vercel.app/",
         git: "https://github.com/Omegaraspati/trans-tv",
         scr: pwdk,
+    },
+    {
+        title: "Revou Professional Skilling Platform ",
+        desc: "Digital Marketing",
+        devstack: "2024-2024",
+        link: "https://trans-tv-git-main-omegaraspatis-projects.vercel.app/",
+        git: "https://github.com/Omegaraspati/trans-tv",
+        scr: revou,
     },
 ]
 

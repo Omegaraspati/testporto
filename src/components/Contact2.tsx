@@ -25,7 +25,7 @@ const skillIcons = [
     <div>
          <div className='bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-32'>
         <div className='text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center'>
-            <h2 className='text-6xl font-bold mb-4'>What I do</h2>
+            <h2 className='text-6xl font-bold mb-4'>What I Do</h2>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
                 {skillIcons.map((skill,index) => (
                     <div

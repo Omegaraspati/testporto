@@ -17,8 +17,9 @@ const Contact = () => {
                 Contac&apos;t <span className="text-orange-400">Me</span>
             </h1>
             
-    <div className="max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8" id='contact'>
+    <div className="max-w-[1000px] mx-auto flex flex-col justify-center lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8" id='contact'>
       <div className='flex justify-center items-center'>
+        <div className=''>
         <ul className='space-y-4'>
           <a href="https://wa.me/62882000090278?text=Halo" target="blank" className='overflow-hidden hover:group'>
           <li className='flex items-center transform transition-transform duration-300 hover:scale-110 hover:group hover:text-orange-400 hover:underline'>
@@ -26,10 +27,13 @@ const Contact = () => {
             <p className='text-xl'>WhatsApp Me</p>
           </li>
             </a>
-          <li className='flex items-center'>
+            <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=omegaraspatiii@gmail.com" target='blank' className='overflow-hidden hover:group'>
+          <li className='flex items-center transform transition-transform duration-300 hover:scale-110 hover:group hover:text-orange-400 hover:underline'>
             <Image src={mail} alt={'mail'} className='h-[110px] w-auto mr-6' />
-            <p className='text-xl'>omegaraspatiii@gmail.com</p>
+            <p className='text-xl'>Email</p>
           </li>
+          </a>
+          <ul>
           <a href="https://github.com/Omegaraspati" target="blank" className='overflow-hidden hover:group'>
           <li className='flex items-center transform transition-transform duration-300 hover:scale-110 hover:group hover:text-orange-400 hover:underline'>
             <Image src={githubanimated} alt={'github'} className='h-[110px] w-auto mr-6' />
@@ -42,7 +46,9 @@ const Contact = () => {
             <p className='text-xl'>Linkedin</p>
           </li>
           </a>
+          </ul>
         </ul>
+        </div>
       </div>
 
      

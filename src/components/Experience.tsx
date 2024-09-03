@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import alexa from '@/assets/alexa.jpeg'
 import permana from '@/assets/permana.jpeg'
+import utbali from '@/assets/utbali.jpg'
 
 const theplace= [
     {
@@ -33,6 +34,14 @@ const theplace= [
         link :"https://itenas-bandung.vercel.app/",
         git :"https://github.com/Omegaraspati/website-itenas",
         scr :alexa,
+    },
+    {
+        title :"Universitas Terbuka Denpasar",
+        desc :"Jl. Raya Sesetan No.121, Sesetan, Denpasar Selatan, Kota Denpasar, Bali 80223",
+        devstack :"IT Support & Lecture Assistance (2024-2025)",
+        link :"https://itenas-bandung.vercel.app/",
+        git :"https://github.com/Omegaraspati/website-itenas",
+        scr :utbali,
     },
 ]
 
