@@ -7,14 +7,15 @@ import transtv from '../assets/transtv.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Aos from 'aos'
+import xxi from '@/assets/xxi.png'
 import 'aos/dist/aos.css';
 
 
 const projects= [
     {
         title :"Portfolio Marsya Nurma Guvita",
-        desc :"Membuat sebuah perkenalan diri berbasis Website",
-        devstack :"FrontEnd woth Next.js",
+        desc :"Making Portfolio Website",
+        devstack :"FrontEnd with Next.js",
         link :"https://portfoliomarsyaagn-git-main-omegaraspatis-projects.vercel.app/",
         git :"https://github.com/Omegaraspati/portfolio-nextjs",
         scr :portomarsya,
@@ -28,7 +29,7 @@ const projects= [
         scr :itenas,
     },
     {
-        title :"Valorant-ID",
+        title :"Valorant ID",
         desc :"Clonning Website RIOT GAME Valorant-ID",
         devstack :"FrontEnd with Next.js",
         link :"https://valorant-website.vercel.app/",
@@ -42,6 +43,14 @@ const projects= [
         link :"https://trans-tv-git-main-omegaraspatis-projects.vercel.app/",
         git :"https://github.com/Omegaraspati/trans-tv",
         scr :transtv,
+    },
+    {
+        title :"Cinema 21 ",
+        desc :"Clonning Website XXI - Cinema 21",
+        devstack :"FrontEnd with Next.js",
+        link :"https://cinema-21-seven.vercel.app/",
+        git :"https://github.com/Omegaraspati/xxi",
+        scr :xxi,
     },
 ]
 const Portfolio = () => {
