@@ -5,6 +5,7 @@ import itenas from '../assets/itenas.png'
 import valorant from '../assets/valorant.png'
 import transtv from '../assets/transtv.png'
 import Image from 'next/image'
+import whiskas from '@/assets/whiskas.png'
 import { motion } from 'framer-motion'
 import Aos from 'aos'
 import xxi from '@/assets/xxi.png'
@@ -21,7 +22,7 @@ const projects= [
         scr :portomarsya,
     },
     {
-        title :"Itenas - Institut Teknologi Nasional",
+        title :"Itenas - Institut Tex knologi Nasional",
         desc :"Clonning Website Itenas Bandung",
         devstack :"FrontEnd with Next.js",
         link :"https://itenas-bandung.vercel.app/",
@@ -51,6 +52,14 @@ const projects= [
         link :"https://cinema-21-seven.vercel.app/",
         git :"https://github.com/Omegaraspati/xxi",
         scr :xxi,
+    },
+    {
+        title :"Whiskas ",
+        desc :"Clonning Website Whiskas Website",
+        devstack :"FrontEnd with Next.js",
+        link :"https://whiskas-web.vercel.app/",
+        git :"https://github.com/Omegaraspati/Whiskas",
+        scr :whiskas,
     },
 ]
 const Portfolio = () => {
