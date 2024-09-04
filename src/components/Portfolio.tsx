@@ -22,7 +22,7 @@ const projects= [
         scr :portomarsya,
     },
     {
-        title :"Itenas - Institut Tex knologi Nasional",
+        title :"Itenas - Institut Teknologi Nasional",
         desc :"Clonning Website Itenas Bandung",
         devstack :"FrontEnd with Next.js",
         link :"https://itenas-bandung.vercel.app/",
