@@ -6,6 +6,7 @@ import valorant from '../assets/valorant.png'
 import transtv from '../assets/transtv.png'
 import Image from 'next/image'
 import whiskas from '@/assets/whiskas.png'
+import cleo from '@/assets/cleo.png'
 import { motion } from 'framer-motion'
 import Aos from 'aos'
 import xxi from '@/assets/xxi.png'
@@ -60,6 +61,14 @@ const projects= [
         link :"https://whiskas-web.vercel.app/",
         git :"https://github.com/Omegaraspati/Whiskas",
         scr :whiskas,
+    },
+    {
+        title :"Cleo Pure Water",
+        desc :"Clonning Website Cleo Website",
+        devstack :"FrontEnd with Next.js",
+        link :"https://cleo-website.vercel.app/",
+        git :"https://github.com/Omegaraspati/cleo",
+        scr :cleo,
     },
 ]
 const Portfolio = () => {
