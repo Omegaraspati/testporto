@@ -39,8 +39,8 @@ const Hero = () => {
                 </motion.div>
                 <div className='text-center text-xl max-w-[500px] sm:mx-auto mt-8 mx-10 text-white/80'>
                     <p className='pb-12'>
-                        I am a graduate of Informatics Engineering. I have skills in the world of computers and IT,
-                        one of which is in the field of Front End Web Development.
+                        I am a graduate of Informatics Engineering. I have skills of Computers and Programming. And I can make the UI/UX Design for website or for Digital Marketing.
+                        Then, one of which is in the field of Front End Web Development.
                     </p>
                     <a href="https://drive.google.com/uc?export=download&id=1uiGnOQmtbGEbZhK1k4qTQfYpFOaqgmmr">
                     <button

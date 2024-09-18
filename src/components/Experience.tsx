@@ -38,7 +38,7 @@ const theplace= [
     {
         title :"Universitas Terbuka Denpasar",
         desc :"Jl. Raya Sesetan No.121, Sesetan, Denpasar Selatan, Kota Denpasar, Bali 80223",
-        devstack :"IT Support & Lecture Assistance (2024-2025)",
+        devstack :"IT Support & UI/UX Design (2024-2025)",
         link :"https://itenas-bandung.vercel.app/",
         git :"https://github.com/Omegaraspati/website-itenas",
         scr :utbali,

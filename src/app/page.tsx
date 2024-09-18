@@ -7,6 +7,8 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import Portfolio from "@/components/Portfolio";
+import PortfolioGallery from "@/components/PortfolioGallery";
+import PortfolioVideo from "@/components/PortfolioVideo";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -18,9 +20,10 @@ export default function Home() {
     <About />
     <Education/>
     <Portfolio />
+    <PortfolioGallery/>
+    <PortfolioVideo/>
     <Experience/>
     <Skills />
-    {/* <Contact2 /> */}
     <Contact/>
     <Footer/>
     </>

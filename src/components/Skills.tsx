@@ -5,6 +5,7 @@ import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa'
 import { SiAdobephotoshop, SiAdobepremierepro, SiCoreldraw, SiMysql, SiNextdotjs, SiTailwindcss, SiTypescript, SiVegas } from 'react-icons/si';
 
 
+
 const skillIcons = [
     {icon : <FaHtml5 size={140} />, label : "HTML"},
     {icon : <FaCss3Alt size={140} />, label : "CSS"},
