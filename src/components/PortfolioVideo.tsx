@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const allVideos = [
     { src: '/videos/Video1.mp4', alt: 'Video 1' },
@@ -47,6 +47,9 @@ const PortfolioVideo = () => {
             <div className='text-white bg-gradient-to-b from-[#381a5f] to-[#381a5f]'>
                 <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold pb-10'>
                     My Video <span className='text-orange-400'>Gallery</span>
+                </h1>
+                <h1 className='text-white text-3xl max-w-[400px] md:mx-60 font-semibold pb-10 uppercase'>
+                    alexa<span className='text-orange-400 uppercase'> pure water</span>
                 </h1>
                 <div
                     className="grid grid-cols-2 sm:grid-cols-4 gap-2 pb-10 mx-auto max-w-[1200px]"

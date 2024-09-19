@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import Portfolio from "@/components/Portfolio";
 import PortfolioGallery from "@/components/PortfolioGallery";
+import PortfolioUT from "@/components/PortfolioUT";
 import PortfolioVideo from "@/components/PortfolioVideo";
 import Skills from "@/components/Skills";
 
@@ -21,6 +22,7 @@ export default function Home() {
     <Education/>
     <Portfolio />
     <PortfolioGallery/>
+    <PortfolioUT/>
     <PortfolioVideo/>
     <Experience/>
     <Skills />

@@ -30,7 +30,7 @@ const theplace= [
     {
         title :"Alexa Highly Pure Water",
         desc :"Jl. Pamubusan, Cibiru Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40625",
-        devstack :"Grapich Designer & FrontEnd Developer (2023-2024)",
+        devstack :"Grapich Designer & IT Support(2023-2024)",
         link :"https://itenas-bandung.vercel.app/",
         git :"https://github.com/Omegaraspati/website-itenas",
         scr :alexa,
