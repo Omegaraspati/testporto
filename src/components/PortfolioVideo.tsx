@@ -23,7 +23,7 @@ const allVideos = [
 const PortfolioVideo = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
-    const [visibleVideos, setVisibleVideos] = useState(4); // Mulai dengan 2 video
+    const [visibleVideos, setVisibleVideos] = useState(4); // Mulai dengan 4 video
 
     // Fungsi untuk membuka modal dan menampilkan video
     const openModal = (video: string) => {

@@ -2,13 +2,17 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Example from '@/assets/example.jpg';
+import ut1 from '@/assets/ut1.png'
+import ut2 from '@/assets/ut2.png'
+import ut3 from '@/assets/ut3.png'
+import ut4 from '@/assets/ut4.png'
+import ut5 from '@/assets/ut5.png'
 
 const UTImages = [
-    { src: Example, alt: 'example' },
-    { src: Example, alt: 'example' },
-    { src: Example, alt: 'example' },
-    { src: Example, alt: 'example' },
+    { src: ut1, alt: 'example' },
+    { src: ut2, alt: 'example' },
+    { src: ut3, alt: 'example' },
+    { src: ut4, alt: 'example' },
 ];
 
 const PortfolioUT = () => {

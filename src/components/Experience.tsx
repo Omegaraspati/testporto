@@ -12,7 +12,7 @@ const theplace= [
     {
         title :"TransTv",
         desc :"Menara Bank Mega, Jl. Kapten Tendean, Mampang Prapatan, Kota, South Jakarta City, Jakarta 12790",
-        devstack :"Creative Team & Asistence Producer (2017-2017)",
+        devstack :"Creative Team & Producer Assistance (2017-2017)",
         tahun:"2017-2017",
         link :"https://portfoliomarsyaagn-git-main-omegaraspatis-projects.vercel.app/",
         git :"https://github.com/Omegaraspati/portfolio-nextjs",
